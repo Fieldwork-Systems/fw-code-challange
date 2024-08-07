@@ -11,7 +11,7 @@ test('Base test - nothing to do here', () => {
   expect(1).toBe(1);
 });
 
-test('Grouping Anagrams', () => {
+test('1. Grouping Anagrams', () => {
   expect(
     AppRunner(
       () => ['abc', 'fun', 'bac', 'fun', 'cba', 'unf', 'hello'],
@@ -20,7 +20,7 @@ test('Grouping Anagrams', () => {
   ).toEqual([['abc', 'bac', 'cba'], ['fun', 'unf'], ['hello']]);
 });
 
-test('Sorting strings', () => {
+test('2. Sorting strings', () => {
   expect(
     AppRunner(
       () => ['abc', 'fun', 'bac', 'fun', 'cba', 'unf', 'hello'],
@@ -29,7 +29,7 @@ test('Sorting strings', () => {
   ).toEqual(['abc', 'bac', 'cba', 'fun', 'fun', 'hello', 'unf']);
 });
 
-test('Capitlize name', () => {
+test('3. Capitlize name', () => {
   expect(
     AppRunner(
       () => ['DOMiNIc calvert-LeWin', `shane mcdonald o'hanley`],
@@ -38,7 +38,7 @@ test('Capitlize name', () => {
   ).toEqual(['Dominic Calvert-Lewin', `Shane McDonald O'Hanley`]);
 });
 
-test('Distinct numbers and order', () => {
+test('4. Distinct numbers and order', () => {
   expect(
     AppRunner(
       () => ['4', '99', '3', '3', '4', '1', '2'],
@@ -47,7 +47,7 @@ test('Distinct numbers and order', () => {
   ).toEqual([1, 2, 3, 4, 99]);
 });
 
-test('Fizz Buzz', () => {
+test('5. Fizz Buzz', () => {
   expect(
     AppRunner(
       () => [
