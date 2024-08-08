@@ -36,3 +36,7 @@ Replace any number divisible by three with the word "fizz" any number divisible 
 
 You do not have to use the AppRunner function for all your tests -
 but feel free to update the function so it can be used in all tests
+
+### Hint
+This isn't a test about arrays or sorting, it's about how the appRunner function can get updated to handle all the different use cases. 
+
