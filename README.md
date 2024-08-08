@@ -7,6 +7,7 @@ During the technical interview, we will spend 30 minutes pairing on the solution
 ## Setup
 
 ```
+npm install
 npm test -- --watch
 ```
 
@@ -38,5 +39,5 @@ You do not have to use the AppRunner function for all your tests -
 but feel free to update the function so it can be used in all tests
 
 ### Hint
-This isn't a test about arrays or sorting, it's about how the appRunner function can get updated to handle all the different use cases. 
 
+This isn't a test about arrays or sorting, it's about how the appRunner function can get updated to handle all the different use cases.
