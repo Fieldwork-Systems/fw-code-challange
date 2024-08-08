@@ -18,7 +18,13 @@ export const fizzBuzz = (payload: string[]) => {
   return [payload];
 };
 
-export const AppRunner = (
-  dataIn: () => string[],
-  dataOut: (payload: string[]) => string[][]
-) => dataOut(dataIn());
+interface App {
+  process(
+    dataIn: () => string[],
+    dataOut: (payload: string[]) => string[][]
+  ): string[][];
+}
+
+export const AppRunner: App = {
+  process: (dataIn, dataOut) => dataOut(dataIn()),
+};
