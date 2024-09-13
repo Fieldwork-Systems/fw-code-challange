@@ -41,3 +41,7 @@ but feel free to update the function so it can be used in all tests
 ### Hint
 
 This isn't a test about arrays or sorting, it's about how the appRunner function can get updated to handle all the different use cases.
+
+### Extra Credit
+
+Observability is critical for a system to be scalable and maintainable. Extend the current implementation to include some additional functionality related to observability.
