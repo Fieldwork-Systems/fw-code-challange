@@ -14,7 +14,7 @@ test('Base test - nothing to do here', () => {
 describe('AppRunner', () => {
   test('1. Grouping Anagrams', () => {
     expect(
-      AppRunner(
+      AppRunner.process(
         () => ['abc', 'fun', 'bac', 'fun', 'cba', 'unf', 'hello'],
         anagrams
       )
@@ -23,7 +23,7 @@ describe('AppRunner', () => {
 
   test('2. Sorting strings', () => {
     expect(
-      AppRunner(
+      AppRunner.process(
         () => ['abc', 'fun', 'bac', 'fun', 'cba', 'unf', 'hello'],
         sortArrayOfStrings
       )
@@ -32,7 +32,7 @@ describe('AppRunner', () => {
 
   test('3. Capitlize name', () => {
     expect(
-      AppRunner(
+      AppRunner.process(
         () => ['DOMiNIc calvert-LeWin', `shane mcdonald o'hanley`],
         formatName
       )
@@ -41,7 +41,7 @@ describe('AppRunner', () => {
 
   test('4. Distinct numbers and order', () => {
     expect(
-      AppRunner(
+      AppRunner.process(
         () => ['4', '99', '3', '3', '4', '1', '2'],
         sortAndDedupArratOfNumberStrings
       )
@@ -50,7 +50,7 @@ describe('AppRunner', () => {
 
   test('5. Fizz Buzz', () => {
     expect(
-      AppRunner(
+      AppRunner.process(
         () =>
           [
             1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16,

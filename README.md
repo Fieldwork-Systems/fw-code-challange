@@ -35,8 +35,8 @@ Replace any number divisible by three with the word "fizz" any number divisible 
 
 ### Note
 
-You do not have to use the AppRunner function for all your tests -
-but feel free to update the function so it can be used in all tests
+You do not have to use the `AppRunner.process` function for all your tests -
+but feel free to update the function and the interface so it can be used in all tests
 
 ### Hint
 
